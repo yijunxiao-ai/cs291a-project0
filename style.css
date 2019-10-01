@@ -2,24 +2,48 @@ body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 h1 {
     margin: 1em 0 .5em;
     line-height: 1.25;
-    font-size: 2em
+    font-size: 2em;
 }
 
 ul {
     margin: 1em 0;
-    padding-left: 40px
+    padding-left: 40px;
 }
 
 p {
-    margin: 1em 0
+    margin: 1em 0;
 }
 
 a img {
-    border: none
+    border: none;
+}
+
+a {
+  text-decoration: underline;
+}
+a:link {color: #0000EE;}
+a:visited {color: #551A8B;}
+a:active {color: #EE0000;}
+a:active, a:hover {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 1px;
+  vertical-align: top;
+  text-align: left;
+}
+
+td:first-child, th:first-child {
+  empty-cells: hide;
 }
